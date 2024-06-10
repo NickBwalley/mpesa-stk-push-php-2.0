@@ -1,3 +1,4 @@
+// NOTE!!! THIS IS JUST A SIMPLE FRONT-END TO TEST YOUR {REQ, RES} FROM YOUR CALLBACK APIS
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,8 +59,8 @@
     include 'accessToken.php';
     date_default_timezone_set('Africa/Nairobi');
     $processrequestUrl = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
-    $callbackurl = 'https://acersteam.xyz/callback.php';
-    $passkey = "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919";
+    $callbackurl = 'YOUR_CALLBACK_URL_WEBSITE';
+    $passkey = "YOUR_PASS_KEY";
     $BusinessShortCode = '174379';
     $Timestamp = date('YmdHis');
     // ENCRIPT  DATA TO GET PASSWORD
